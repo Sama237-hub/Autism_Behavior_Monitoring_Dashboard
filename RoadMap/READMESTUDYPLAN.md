@@ -505,3 +505,20 @@ Now we let's continue the roadmap into weeks.
 </table>
 
 In this stage, you now have strong basics about machine learning algorithms and how it works. Also, you learned about APIs and how to use them. Now you are ready to train models, practice on datasets, and make some projects involving the algorithms you learned. You may also make a machine learning algorithm from **scratch**; it would be great practice to understand the algorithms more.
+
+
+## 🗺️ Roadmap لدراسة وتطبيق المشروع
+
+| الشهر | المجال | المواضيع الرئيسية | التطبيق في مشروع Autism Dashboard |
+|-------|---------|------------------|----------------------------------|
+| 1 | Python + مكتبات البيانات | - أساسيات Python <br>- التعامل مع NumPy, Pandas <br>- قراءة وتنظيف البيانات | تجهيز ملفات الـCSV / Excel من مصادر البيانات (مثل NDAR) وتحضيرها للمعالجة |
+| 1 | Data Visualization | - Matplotlib, Seaborn <br>- إنشاء رسوم بيانية | رسم تحليلات أولية للبيانات لتسهيل الفهم للأهل والفريق |
+| 2 | Statistics & Probability | - إحصاء وصفي واستدلالي <br>- توزيع البيانات <br>- Correlation & Hypothesis Testing | تحليل أولي لسلوكيات الأطفال واكتشاف الأنماط العامة |
+| 2 | Exploratory Data Analysis (EDA) | - تنظيف البيانات المتقدمة <br>- اكتشاف Outliers <br>- Feature Engineering أولي | إعداد Features مناسبة للموديلات الأولية و Dashboard insights |
+| 3 | Machine Learning | - نماذج تصنيف (Classification) <br>- Regression <br>- تقييم النماذج | بناء موديل يتنبأ بالسلوكيات أو يصنف الأنماط المختلفة ويولّد تنبيهات أولية |
+| 3 | Feature Engineering | - اختيار وإنشاء Features مهمة <br>- Scaling, Encoding | تحسين دقة الموديل واستخراج Features خاصة بالسلوكيات اليومية |
+| 4 | Backend Basics | - Flask أو FastAPI <br>- REST API <br>- Authentication | إنشاء API يربط الـDashboard بالبيانات وبالموديل مع إدارة المستخدمين |
+| 4 | Dashboard / Frontend | - Plotly Dash أو Streamlit أو React <br>- تصميم واجهة تفاعلية | بناء الـDashboard وعرض التحليلات والتقارير للأهالي بشكل بسيط |
+| 5 (إضافي) | Deep Learning | - أساسيات Neural Networks <br>- استخدام TensorFlow أو PyTorch | تجربة موديل أعمق للتنبؤ بسلوكيات معقدة أو تصنيف أنماط دقيقة أكثر |
+| 5 (إضافي) | Deployment | - رفع المشروع على Server أو Cloud <br>- إعداد بيئة إنتاج | نشر الـDashboard والموديل ليكون متاح للأهل أو الجهات الصحية |
+

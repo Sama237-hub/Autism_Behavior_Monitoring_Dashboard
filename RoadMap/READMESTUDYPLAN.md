@@ -403,10 +403,7 @@ It includes the following topics:
 
 - Math required for Machine Learning:
   - Linear Algebra
-  - Multi-variate Calculus
 - Machine Learning Algorithms:
-  - Supervised Learning
-  - Unsupervised Learning
   - Ensemble Learning
 - Model Evaluation and Selection
 - APIs
@@ -470,28 +467,7 @@ Now we let's continue the roadmap into weeks.
     </thead>
     <tbody>
         <tr>
-            <th>Steps 3 - 4</th>
-            <td>
-                🕵️ Supervised Learning
-            </td>
-            <td>
-                <ul>
-                    <h3>🚀 Resources</h3>
-                    <li><a href="https://www.coursera.org/learn/machine-learning">Andrew Ng | Machine Learning</a>: 34-hours Coursera course (you can apply for a financial aid).</li>
-                    <li><a href="https://app.datacamp.com/learn/courses/supervised-learning-with-scikit-learn">Supervised Learning with Scikit-Learn</a>: 4-hours DataCamp course (requires subscription).</li>
-                </ul>
-            </td>
-            <td>
-                <ol>
-                    <li>🏆 Complete Andrew Ng's course.</li>
-                    <li>🏆 Complete the DataCamp course.</li>
-                    <li>📝 Solve the <a href="https://drive.google.com/file/d/1e_MAU0DX5CKnftyqsbr5Sh83OsIhxF18/view?usp=sharing">task notebook</a>(consider this <a href="https://drive.google.com/file/d/1E4rJzlOSPSB914-cQFLk3U02E90iF24v/view?usp=sharing">data</a>).</li>
-                    <li>📝 Solve (Step 3) <a href="https://drive.google.com/file/d/1GZiVMo2bBkSyveZDTPvbvwnuRsWXortF/view?usp=sharing">task notebook</a>.</li>
-                </ol>
-            </td>
-        </tr>
-        <tr>
-            <th>Steps 5 - 14</th>
+            <th>Steps 3 - 12</th>
             <td>
                 📖 Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 3rd Edition
             </td>
@@ -508,7 +484,7 @@ Now we let's continue the roadmap into weeks.
             </td>
         </tr>
         <tr>
-            <th>Step 15</th>
+            <th>Step 13</th>
             <td>
                 🌐 APIs
             </td>

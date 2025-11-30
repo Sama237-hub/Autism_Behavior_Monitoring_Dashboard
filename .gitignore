@@ -1,10 +1,6 @@
-<<<<<<< HEAD
-node_modules
-=======
-venv/
-pycache_/
-*.pyc
-
-
-
->>>>>>> d96957a201ac292ca16a9ea1e1f9cf5ab2d26c18
+backend/
+frontend/
+node_modules/
+__pycache__/
+.venv/
+.env

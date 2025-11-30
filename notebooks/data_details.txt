@@ -1,0 +1,70 @@
+{
+    "Original_Columns": [
+        "looks_when_called",
+        "eye_contact",
+        "point_wants",
+        "point_interest",
+        "pretend_play",
+        "follow_gaze",
+        "comfort_others",
+        "unusual_words",
+        "simple_gestures",
+        "stares_blankly",
+        "Social_Responsiveness_Scale",
+        "Age_Years",
+        "Qchat_10_Score",
+        "Speech Delay/Language Disorder",
+        "Learning disorder",
+        "Genetic_Disorders",
+        "Depression",
+        "Global developmental delay/intellectual disability",
+        "Social/Behavioural Issues",
+        "Childhood Autism Rating Scale",
+        "Anxiety_disorder",
+        "Sex",
+        "Ethnicity",
+        "Jaundice",
+        "Family_mem_with_ASD",
+        "Who_completed_the_test",
+        "ASD_traits"
+    ],
+    "Columns_Removed": [
+        "Social_Responsiveness_Scale",
+        "Qchat_10_Score",
+        "Childhood Autism Rating Scale",
+        "Speech Delay/Language Disorder",
+        "Learning disorder",
+        "Genetic_Disorders",
+        "Depression",
+        "Global developmental delay/intellectual disability",
+        "Social/Behavioural Issues",
+        "Anxiety_disorder"
+    ],
+    "A_Items_Kept": [
+        "looks_when_called",
+        "eye_contact",
+        "point_wants",
+        "point_interest",
+        "pretend_play",
+        "follow_gaze",
+        "comfort_others",
+        "unusual_words",
+        "simple_gestures",
+        "stares_blankly"
+    ],
+    "Demographics_Kept": [
+        "Age_Years",
+        "Sex",
+        "Ethnicity",
+        "Jaundice",
+        "Family_mem_with_ASD",
+        "Who_completed_the_test"
+    ],
+    "Target_Variable": "ASD_traits",
+    "Final_Features_Count": 28,
+    "Final_Rows_Count": 1985,
+    "Target_Distribution": {
+        "1": 1074,
+        "0": 911
+    }
+}

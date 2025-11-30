@@ -1,0 +1,56 @@
+# Phase 1: Diagnosis Model Configuration
+
+data:
+  raw_data_path: "data/raw/phase1_diagnosis.csv"
+  processed_data_path: "data/processed/phase1_processed.csv"
+  
+preprocessing:
+  columns_to_drop:
+    - "Social_Responsiveness_Scale"
+    - "Qchat_10_score"
+    - "Childhood Autism Rating Scale"
+    - "Speech Delay/Language Disorder"
+    - "Learning disorder"
+    - "Genetic_Disorders"
+    - "Depression"
+    - "Global developmental delay/intellectual disability"
+    - "Social/Behavioural Issues"
+    - "Anxiety_disorder"
+  
+  categorical_columns:
+    - "Ethnicity"
+    - "Who_completed_the_test"
+  
+  target_column: "ASD_traits"
+
+model_training:
+  test_size: 0.2
+  random_state: 42
+  cv_folds: 5
+  
+models:
+  RandomForest:
+    n_estimators: 100
+    random_state: 42
+    
+  DecisionTree:
+    random_state: 42
+    
+  SVM_RBF:
+    kernel: "rbf"
+    random_state: 42
+    
+  LogisticRegression:
+    random_state: 42
+    
+  SVM_Linear:
+    kernel: "linear"
+    random_state: 42
+
+evaluation:
+  metrics:
+    - "accuracy"
+    - "precision"
+    - "recall"
+    - "f1"
+    - "roc_auc"

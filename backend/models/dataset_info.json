@@ -1,0 +1,24 @@
+{
+    "original_shape": [
+        1985,
+        27
+    ],
+    "clean_shape": [
+        1985,
+        17
+    ],
+    "target_distribution": {
+        "1": 1074,
+        "0": 911
+    },
+    "asd_prevalence": "54.1%",
+    "train_shape": [
+        1588,
+        31
+    ],
+    "test_shape": [
+        397,
+        31
+    ],
+    "train_test_split": "80/20"
+}
